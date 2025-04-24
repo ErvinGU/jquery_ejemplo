@@ -9,6 +9,11 @@ $("p").click(function(){
 
 })
 
-$("#boton").click(function() {
+$("#boton").click(function(){
+    $("#div").css({
+        'background-color': 'chocolate',
+        'color': '#fff',
+        'padding': '10px'
+    })
     
-}
+})
